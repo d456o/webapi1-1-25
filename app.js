@@ -11,6 +11,6 @@ console.log(process.env.GOOGLE_USE);
 const secure=require('./api/v1/middlewares/secure');
 
 app.use(secure);
-app.use('/product',productRoutere);
+app.use('/product',productRoutere);//אפפ
 
 module.exports=app;
